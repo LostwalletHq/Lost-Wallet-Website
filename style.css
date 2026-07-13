@@ -38,12 +38,12 @@ nav{
     padding:80px 20px;
 }
 
-..hero-logo img{
+.hero-logo img{
     width:220px;
     max-width:90%;
     animation: float 4s ease-in-out infinite;
     filter: drop-shadow(0 0 25px gold);
-}
+
 
 @keyframes float{
     0%{
