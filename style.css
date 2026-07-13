@@ -170,7 +170,7 @@ nav{
     border-color:#FFD700;
     box-shadow:0 15px 40px rgba(255,215,0,.25);
 }
-#dashboard{
+ #dashboard{
     max-width:1200px;
     margin:80px auto;
     padding:20px;
@@ -215,7 +215,7 @@ nav{
     color:#d6d6d6;
     font-size:18px;
 }
-footer{
+ footer{
     text-align:center;
     padding:40px;
     background:#0d1b2a;
