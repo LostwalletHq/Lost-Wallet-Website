@@ -26,5 +26,5 @@ if (hunterCount) {
         }
 
     }, 5);
-
+}
 
