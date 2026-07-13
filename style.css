@@ -1,4 +1,6 @@
-*{
+html{
+    scroll-behavior: smooth;
+}*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -6,18 +8,23 @@
 }
 
 body{
-    background:#07111f;
+    background:
+        radial-gradient(circle at top, #16355d 0%, #07111f 45%, #030712 100%);
     color:white;
+    overflow-x:hidden;
 }
 
 nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:20px;
-    background:#0d1b2a;
+    padding:20px 8%;
+    background:rgba(13,27,42,0.85);
+    backdrop-filter:blur(12px);
     position:sticky;
     top:0;
+    z-index:1000;
+    border-bottom:1px solid rgba(255,215,0,0.2);
 }
 
 .logo{
