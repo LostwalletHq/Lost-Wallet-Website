@@ -140,12 +140,21 @@ nav{
 }
 
 .phase{
-    background:#10243c;
-    border:1px solid #FFD700;
-    border-radius:15px;
-    padding:20px;
-    margin:20px 0;
+    background:rgba(16,36,60,0.75);
+    border:1px solid rgba(255,215,0,0.3);
+    border-radius:20px;
+    padding:25px;
+    margin:25px 0;
     font-size:20px;
+    backdrop-filter:blur(10px);
+    transition:all .3s ease;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.phase:hover{
+    transform:translateY(-8px);
+    border-color:#FFD700;
+    box-shadow:0 15px 40px rgba(255,215,0,.25);
 }
 
 footer{
