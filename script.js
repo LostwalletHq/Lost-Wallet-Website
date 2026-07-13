@@ -2,10 +2,18 @@
 // Lost Wallet Website
 console.log("Welcome to Lost Wallet!");
 
-const button = document.querySelector(".button");
+// Wallet Status
+const walletStatus = document.getElementById("wallet-status");
 
-button.addEventListener("click", function(event) {
-    event.preventDefault();
+if (walletStatus) {
+    walletStatus.textContent = "🟢 Still Missing";
+}
 
-    alert("🚀 Welcome to Lost Wallet!\n\nThe journey has just begun.");
-});
+// Join Community Button
+const joinButton = document.querySelector(".btn");
+
+if (joinButton) {
+    joinButton.addEventListener("click", function () {
+        alert("🚀 Welcome to Lost Wallet!\n\nThe journey has just begun.");
+    });
+}
