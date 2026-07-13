@@ -27,11 +27,4 @@ if (hunterCount) {
 
     }, 5);
 
-}
-// Join Community Button
-const joinButton = document.querySelector(".btn");
 
-if (joinButton) {
-    joinButton.addEventListener("click", function () {
-        alert("🚀 Welcome to Lost Wallet!\n\nThe journey has just begun.");
-    });
