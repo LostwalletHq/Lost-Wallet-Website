@@ -132,15 +132,19 @@ nav{
     transform:translateY(-4px);
 }
 
+#community,
 #story,
+#tokenomics,
 #roadmap{
-    max-width:900px;
+    max-width:1200px;
     margin:auto;
     padding:80px 20px;
     text-align:center;
 }
 
+#community h2,
 #story h2,
+#tokenomics h2,
 #roadmap h2{
     color:#FFD700;
     margin-bottom:25px;
