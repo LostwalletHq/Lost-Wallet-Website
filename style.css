@@ -42,21 +42,24 @@ nav{
     font-weight:bold;
 }
 
+
 .hero{
     text-align:center;
     padding:80px 20px;
 }
+
 .hero-logo img{
     width:220px;
     max-width:90%;
     animation: float 4s ease-in-out infinite;
     filter: drop-shadow(0 0 25px gold);
-}.hero-logo img:hover{
+}
+
+.hero-logo img:hover{
     transform:scale(1.05);
     filter:drop-shadow(0 0 40px gold);
     transition:all .4s ease;
 }
-
 @keyframes float{
     0%{
         transform:translateY(0);
