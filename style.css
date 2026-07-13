@@ -170,7 +170,51 @@ nav{
     border-color:#FFD700;
     box-shadow:0 15px 40px rgba(255,215,0,.25);
 }
+#dashboard{
+    max-width:1200px;
+    margin:80px auto;
+    padding:20px;
+    text-align:center;
+}
 
+#dashboard h2{
+    color:#FFD700;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:rgba(16,36,60,0.75);
+    border:1px solid rgba(255,215,0,0.3);
+    border-radius:20px;
+    padding:30px 20px;
+    backdrop-filter:blur(10px);
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    transition:all .3s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#FFD700;
+    box-shadow:0 15px 40px rgba(255,215,0,.25);
+}
+
+.card h3{
+    color:#FFD700;
+    margin-bottom:15px;
+    font-size:22px;
+}
+
+.card p{
+    color:#d6d6d6;
+    font-size:18px;
+}
 footer{
     text-align:center;
     padding:40px;
