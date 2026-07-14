@@ -29,7 +29,7 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 8%;
-position:fixed;
+position:sticky;
 top:0;
 left:0;
 background:rgba(5,8,22,.75);
@@ -254,10 +254,10 @@ padding:18px;
 .logo h2{
 font-size:30px;
 }
-
 .hero{
-padding:110px 25px 60px;
+padding:220px 30px 80px;
 }
+
 
 .hero-text{
 font-size:18px;
