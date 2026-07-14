@@ -71,7 +71,9 @@ color:#f7c948;
 }
 
 .join-btn{
-padding:12px 28px;
+padding:12px 20px;
+min-width:170px;
+text-align:center;
 background:#f7c948;
 color:#111;
 border-radius:50px;
@@ -110,11 +112,11 @@ color:#f7c948;
 
 .hero h1{
 font-family:'Orbitron',sans-serif;
-font-size:64px;
-line-height:1.15;
+font-size:clamp(2.3rem,7vw,4.5rem);
+line-height:1.1;
 margin-bottom:25px;
+font-weight:700;
 }
-
 .hero-text{
 font-size:18px;
 line-height:1.8;
@@ -177,7 +179,8 @@ align-items:center;
 
 .hero-right img{
 width:100%;
-max-width:380px;
+max-width:320px;
+border-radius:24px;
 height:auto;
 display:block;
 margin:auto;
@@ -239,6 +242,38 @@ width:300px;
 .hero-info{
 justify-content:center;
 flex-wrap:wrap;
+}
+
+}
+@media (max-width:768px){
+
+.navbar{
+padding:18px;
+}
+
+.logo h2{
+font-size:30px;
+}
+
+.hero{
+padding:110px 25px 60px;
+}
+
+.hero-text{
+font-size:18px;
+}
+
+.hero-info{
+gap:30px;
+}
+
+.hero-info h3{
+font-size:42px;
+}
+
+.join-btn{
+min-width:150px;
+padding:12px 18px;
 }
 
 }
