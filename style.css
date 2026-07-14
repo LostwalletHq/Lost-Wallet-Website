@@ -224,10 +224,12 @@ transform:translateY(-18px);
 display:none;
 }
 
+@media(max-width:1000px){
+
 .hero{
 flex-direction:column;
 text-align:center;
-padding-top:140px;
+padding:180px 30px 80px;
 }
 
 .hero h1{
