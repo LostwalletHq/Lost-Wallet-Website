@@ -385,18 +385,20 @@ max-width:300px;
 }
 
 .dashboard-card{
-    background:rgba(255,255,255,0.05);
-    border:1px solid rgba(255,215,0,.35);
-    border-radius:20px;
-    padding:30px;
-    transition:.35s ease;
-    backdrop-filter:blur(10px);
+background:linear-gradient(145deg,#151a33,#101526);
+border:1px solid rgba(255,215,0,.3);
+border-radius:22px;
+padding:35px;
+transition:.4s;
+backdrop-filter:blur(12px);
+overflow:hidden;
+position:relative;
 }
 
 .dashboard-card:hover{
-    transform:translateY(-10px);
-    border-color:#FFD700;
-    box-shadow:0 0 25px rgba(255,215,0,.35);
+transform:translateY(-12px) scale(1.03);
+border-color:#FFD700;
+box-shadow:0 0 35px rgba(255,215,0,.45);
 }
 
 .dashboard-card h3{
