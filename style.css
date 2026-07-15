@@ -348,3 +348,53 @@ max-width:300px;
 }
 
 }
+/* ===========================
+   MISSION DASHBOARD
+=========================== */
+
+.mission-dashboard{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.mission-dashboard h2{
+    font-size:42px;
+    color:#FFD700;
+    margin-bottom:50px;
+    font-family:'Orbitron',sans-serif;
+}
+
+.dashboard-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.dashboard-card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,215,0,.35);
+    border-radius:20px;
+    padding:30px;
+    transition:.35s ease;
+    backdrop-filter:blur(10px);
+}
+
+.dashboard-card:hover{
+    transform:translateY(-10px);
+    border-color:#FFD700;
+    box-shadow:0 0 25px rgba(255,215,0,.35);
+}
+
+.dashboard-card h3{
+    color:#FFD700;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.dashboard-card p{
+    font-size:22px;
+    color:#ffffff;
+    font-weight:600;
+}
