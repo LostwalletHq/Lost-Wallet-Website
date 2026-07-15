@@ -41,17 +41,29 @@ z-index:1000;
 .logo{
 display:flex;
 align-items:center;
-gap:12px;
+gap:15px;
 }
 
 .logo img{
-width:52px;
+width:60px;
+height:60px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(255,215,0,.35);
 }
 
 .logo h2{
 font-family:'Orbitron',sans-serif;
-font-size:22px;
-font-weight:700;
+font-size:28px;
+color:#fff;
+margin:0;
+}
+
+.logo span{
+display:block;
+font-size:13px;
+color:#FFD700;
+letter-spacing:2px;
+text-transform:uppercase;
 }
 
 .nav-links{
@@ -397,4 +409,28 @@ max-width:300px;
     font-size:22px;
     color:#ffffff;
     font-weight:600;
+}
+.hero-right img{
+
+width:420px;
+max-width:100%;
+animation:float 4s ease-in-out infinite;
+filter:drop-shadow(0 0 40px rgba(255,215,0,.35));
+
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-18px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
 }
