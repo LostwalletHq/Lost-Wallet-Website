@@ -385,14 +385,13 @@ max-width:300px;
 }
 
 .dashboard-card{
-background:linear-gradient(145deg,#151a33,#101526);
-border:1px solid rgba(255,215,0,.3);
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,215,0,.25);
 border-radius:22px;
-padding:35px;
-transition:.4s;
+padding:40px 30px;
+transition:.35s;
 backdrop-filter:blur(12px);
-overflow:hidden;
-position:relative;
+box-shadow:0 15px 35px rgba(0,0,0,.35);
 }
 
 .dashboard-card:hover{
